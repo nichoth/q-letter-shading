@@ -1,0 +1,26 @@
+{
+  "name": "q-letter-shading",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nichoth/q-letter-shading",
+  "authors": [
+    "nichoth <nichoth@gmail.com>"
+  ],
+  "description": "Sass mixin for css 3d letter shading",
+  "main": "_q-letter-shading.scss",
+  "keywords": [
+    "sass",
+    "mixin",
+    "quiet",
+    "framework",
+    "css3",
+    "text-shadow"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
