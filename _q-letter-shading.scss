@@ -1,0 +1,39 @@
+@mixin q-letter-shading($light:#cdd2d5, $dark:#808d93, $direction:left) {
+    @if $direction == "left" {
+        text-shadow:
+            0 1px $dark,
+            -1px 0 $light,
+            -1px 2px $dark,
+            -2px 1px $light,
+            -2px 3px $dark,
+            -3px 2px $light,
+            -3px 4px $dark,
+            -4px 3px $light,
+            -4px 5px $dark,
+            -5px 4px $light,
+            -5px 6px $dark,
+            -6px 5px $light,
+            -6px 7px $dark,
+            -7px 6px $light,
+            -7px 8px $dark,
+            -8px 7px $light;
+    } @else {
+        text-shadow:
+            0 1px $dark,
+            1px 0 $light,
+            1px 2px $dark,
+            2px 1px $light,
+            2px 3px $dark,
+            3px 2px $light,
+            3px 4px $dark,
+            4px 3px $light,
+            4px 5px $dark,
+            5px 4px $light,
+            5px 6px $dark,
+            6px 5px $light,
+            6px 7px $dark,
+            7px 6px $light,
+            7px 8px $dark,
+            8px 7px $light;
+    }
+}

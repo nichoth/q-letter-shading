@@ -1,0 +1,14 @@
+@import "../q-letter-shading";
+
+h1 {
+    margin-left: 1em;
+    margin-top: 1em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font: {
+        family: "Avenir Next", sans-serif;
+        size: 6em;
+        weight: 900;
+    }
+    @include q-letter-shading;
+}
