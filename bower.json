@@ -10,10 +10,10 @@
   "keywords": [
     "sass",
     "mixin",
-    "quiet",
-    "framework",
+    "quiet-library",
     "css3",
-    "text-shadow"
+    "text-shadow",
+    "3d"
   ],
   "license": "MIT",
   "ignore": [
